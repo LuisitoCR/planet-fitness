@@ -48,7 +48,7 @@ function Carousel() {
         <div className="absolute z-[0] w-[60%] h-[60%] right-30 rounded-full white__gradient top-50" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 top-50 blue__gradient" />
         {/* gradient end */}
-        <img src={currentImage.url} alt={currentImage.title} className="z-[1] w-[280px] h-[280px] rounded-lg shadow-lg mb-4 transition-transform" />
+        <img src={currentImage.url} alt={currentImage.title} className="z-[1] w-[30%] h-[40%] rounded-lg shadow-lg mb-4 transition-transform" />
         
  
         <button onClick={nextImage} className="z-[1] bg-gray-800 hover:bg-gray-400 rows-carousel font-bold py-4 px-8 rounded-r">
