@@ -7,7 +7,8 @@ const Navbar = ({ abrirLogin, user, cerrarLogin }) => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full fixed py-2 z-10 left-0 px-5 bg-black bg-opacity-50">
+      <div className="w-full flex justify-between items-center navbar">
       <img src={logofitness} alt="hoobank" className="w-[64px] h-[64px] " />
       <p className="text-white">
         PLANET <span className="text-gradient">FITNESS</span>{" "}
@@ -129,6 +130,7 @@ const Navbar = ({ abrirLogin, user, cerrarLogin }) => {
             )}
           </ul>
         </div>
+      </div>
       </div>
     </nav>
   );

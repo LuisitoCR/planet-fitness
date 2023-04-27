@@ -38,7 +38,7 @@ function Carousel() {
   }
 
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between" id='product'>
         <button onClick={prevImage} className="z-[1] bg-gray-800 hover:bg-gray-400 rows-carousel font-bold py-4 px-8 rounded-l">
             <FontAwesomeIcon icon={faArrowLeft} />
         </button>

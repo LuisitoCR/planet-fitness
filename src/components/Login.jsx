@@ -35,6 +35,9 @@ const Login = ({ cerrarVentanaLogin, iniciarSesion }) => {
           </p>
         </div>
 
+        <div className="text-white mb-4">Gracias por elegirnos. Por favor ingresa tus datos para continuar </div>
+
+
         <div className="mb-4 w-96">
           <label className="block text-dimWhite font-bold mb-2" htmlFor="email">
             Correo Electronico
@@ -70,7 +73,7 @@ const Login = ({ cerrarVentanaLogin, iniciarSesion }) => {
 
         <div className="flex items-center justify-between mb-4">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-blue-500 w-40 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             onClick={handleSubmit}
           >
             Iniciar Sesión
@@ -79,7 +82,7 @@ const Login = ({ cerrarVentanaLogin, iniciarSesion }) => {
 
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-blue-500 w-40 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             onClick={cerrarVentanaLogin}
           >
             Volver
